@@ -1,0 +1,99 @@
+$fa-font-path: "../webfonts";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, #f1eded, #f3f0f0);
+    min-width: 100vh;
+    font-family: Lora;
+    font-weight: 100;
+    
+}
+
+.nav {
+    display: flex;
+    position: relative;
+    left: 100px;
+
+    ul {
+        text-align: right;
+        list-style-type: none;
+
+        li {
+            padding: 20px;
+            text-align: right;
+            
+            a {
+                
+            }
+        }
+    }
+}
+
+.title-header {
+    text-align: center;
+
+    h1 {
+        text-align: center;
+        padding: 10px;
+        margin: 40px;
+        font-family: Lora;
+        font-weight: 100;
+        font-size: 1.5rem;
+    }
+}
+
+video {
+    height: 700px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: visible ;
+    padding: 0 40px;
+  }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+.title-header {
+    position: relative;
+}
+
+.video-holder {
+    position: relative;
+}
+
+.icons {
+    display: flex;
+
+    img {
+        height: 90px;
+        width: 150px;
+        margin: 30px;
+        padding: 5px;
+        justify-content: space-between;
+    }
+
+    
+
+}
