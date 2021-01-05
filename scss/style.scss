@@ -8,32 +8,32 @@ $fa-font-path: "../webfonts";
 }
 
 body {
-    background-image: linear-gradient(120deg, #f1eded, #f3f0f0);
+    background-image: linear-gradient(120deg, #ffffff, #ffffff);
     min-width: 100vh;
-    font-family: Lora;
-    font-weight: 100;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 800;
     
 }
 
-.nav {
-    display: flex;
-    position: relative;
-    left: 100px;
+// .nav {
+//     display: flex;
+//     position: relative;
+//     left: 100px;
 
-    ul {
-        text-align: right;
-        list-style-type: none;
+//     ul {
+//         text-align: right;
+//         list-style-type: none;
 
-        li {
-            padding: 20px;
-            text-align: right;
+//         li {
+//             padding: 20px;
+//             text-align: right;
             
-            a {
+//             a {
                 
-            }
-        }
-    }
-}
+//             }
+//         }
+//     }
+// }
 
 .title-header {
     text-align: center;
@@ -42,8 +42,8 @@ body {
         text-align: center;
         padding: 10px;
         margin: 40px;
-        font-family: Lora;
-        font-weight: 100;
+        font-family: Helvetica;
+        font-weight: 500;
         font-size: 1.5rem;
     }
 }
@@ -87,8 +87,7 @@ video {
     display: flex;
 
     img {
-        height: 90px;
-        width: 150px;
+        height: 50px;
         margin: 30px;
         padding: 5px;
         justify-content: space-between;
