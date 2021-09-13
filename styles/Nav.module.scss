@@ -29,3 +29,19 @@
        }  
    }
 }
+
+@media only screen and (max-width: 375px) {
+
+    .nav_bar {
+        
+        .nav_links {
+
+            li {
+                font-size: 1rem;
+                position: relative;
+                right: 8rem;
+                bottom: 2rem;
+            }
+        }
+    }
+}
