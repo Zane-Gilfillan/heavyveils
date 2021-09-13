@@ -1,32 +1,22 @@
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     position: relative;
-    top: 10rem;
-    margin-left: auto;
-    margin-right: auto;
+    bottom: 4rem;
+    margin: 0 auto;
     width: 50%;
 
     .main {
 
         .text_wrap {
-            margin-top: 5rem;
             text-align: center;
-            font-size: 5rem;
-            height: 1rem;
+        }
+
+        .img_wrap {
             position: relative;
-            right: 7rem;
-            bottom: 11rem;
-            z-index: 1;
-            color: rgb(0, 0, 0);
+            left: 5rem;
         }
 
-        .countdown {
-            font-size: 3rem;
-        }
+        
     }
-    
-
 
 }

@@ -1,20 +1,9 @@
 import styles from '../styles/Showcase.module.scss'
 import Image from 'next/image'
 import art from '../public/img/4.jpg'
-import Countdown from 'react-countdown';
 
 
-const Completionist = () => <span>lets jam</span>;
 
-const renderer = ({ hours, minutes, seconds, completed }) => {
-    if (completed) {
-      // Render a completed state
-      return <Completionist />;
-    } else {
-      // Render a countdown
-      return <span>{hours}:{minutes}:{seconds}</span>;
-    }
-  };
 
 const Showcase = () => {
     return (
@@ -24,20 +13,16 @@ const Showcase = () => {
                 
                 <div className={styles.main}>
                     <div className={styles.text_wrap}>
-                        <h1>permahaze</h1>
+                       <h1>melvin henry</h1>
                     </div>
-                        
-                    <Image src={art} height='600' width='600' />
-                </div>
-                
-                <div className={styles.countdown}>
 
-                <Countdown
+                    <div className={styles.img_wrap}>
+                        <Image src={art} height='800' width='800' />
+                    </div>
                     
-                    date={Date.now() + 150000000}
-                    renderer={renderer}
-                />
-
+                    <div className={styles.text_wrap}>
+                       <h1>proscenium crash</h1>
+                    </div>
                 </div>
                 
             </div>
