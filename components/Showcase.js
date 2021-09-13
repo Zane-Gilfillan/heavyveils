@@ -12,7 +12,7 @@ const Showcase = () => {
         <>
             <Head>
                 <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin></link>
                 <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet"></link>
             </Head>
             <div className={styles.container}>
