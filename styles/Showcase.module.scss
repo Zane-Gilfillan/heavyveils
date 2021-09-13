@@ -41,6 +41,7 @@
     }
 }
 
+
 @media only screen and (max-width: 375px) {
     .container {
 
@@ -54,8 +55,11 @@
             }
 
             .img_wrap {
+                margin-right: 2rem;
 
                 img {
+                    position: relative;
+                    bottom: 3rem;
                     height: 200px;
                     width: 370px;
                 }
@@ -63,11 +67,11 @@
 
             .audio_wrap {
                 position: relative;
-                
+                right: .2rem;
                 top: 4.3rem;
                 margin: 0 auto;
                 width: 300px;
             }
         }
     }
-  }
+}
