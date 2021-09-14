@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import styles from '../styles/Showcase.module.scss'
 import Image from 'next/image'
-import art from '../public/img/4.jpg'
+import styles from '../styles/Showcase.module.scss'
 import wall from '../public/img/wall.jpg'
 
 
