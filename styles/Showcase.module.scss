@@ -41,11 +41,26 @@
     }
 }
 
+@media screen and (max-width: 832px) {
 
-@media only screen and (max-width: 375px) {
+    .container {
+        
+        .main {
+
+            .text_wrap {
+                line-height: 1;
+            }
+        }
+    }
+}
+    
+
+
+@media screen and (max-width: 375px) {
+    
     .container {
 
-        width: 375px;
+        width: 100%;
       
         .main {
 
