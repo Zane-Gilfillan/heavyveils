@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+
+    .vid__holder {
+
+        video {
+            width: 100%;
+        }
+    }
+}
+
+
+$breakpoint-mobile: 428px;
+@media (max-width: $breakpoint-mobile) {
+
+    .container {
+        position: relative;
+        left: 2%;
+        margin: .2rem;
+        padding: .1rem;
+        justify-content: center;
+        align-items: center;
+
+        .vid__holder {
+            video {
+                width: 110%;
+            }
+        }
+        
+    }
+}

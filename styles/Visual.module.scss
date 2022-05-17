@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+
+    .img__holder {
+        width: 100%;
+        margin: .5rem;
+    }
+
+    .txt__holder {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;  
+        margin-right: 2rem;
+        margin-left: 1rem;
+        font-size: 1.1rem;
+        line-height: 2.8rem;
+    }
+}
+
+$breakpoint-mobile: 428px;
+@media (max-width: $breakpoint-mobile) {
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+
+        
+        .txt__holder {
+            position: relative;
+            bottom: 3%;
+            margin: 1rem;
+        }
+    }
+   
+} 

@@ -2,20 +2,31 @@
 
     margin: 1rem;
     display: flex;
-    width: 100%;
     justify-content: center;
+    align-items: center;
+
     .album__card {
         width: 80%;
         margin: 1rem;
+        padding: .5rem;
+        justify-content: center;
 
         .img__holder {
             height: 50%;
+            width: 90%;
+            padding: .5rem;
+
+            img {
+                height: 99%;
+            }
         }
     }
     .album__info {
         border: 0;
-        width: 100%;
+        width: 90%;
         height: 241px;
+        justify-content: center;
+        padding: .5rem;
     }
 }
 
@@ -24,6 +35,12 @@ $breakpoint-mobile: 428px;
 
    .container {
        display: grid;
+       width: 100%;
        grid-template-columns: 1fr;
+       justify-content: center;
+       align-items: center;
+       .album__card {
+           width: 100%;
+       }
    }
 }    
