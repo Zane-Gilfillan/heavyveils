@@ -2,7 +2,7 @@ import styles from '../styles/Nav.module.scss'
 import Link from 'next/link'
 import Head from 'next/head'
 
-const Nav = () => {
+const Logo = () => {
     return (
         <>
             <Head>
@@ -13,9 +13,6 @@ const Nav = () => {
                 <div className={styles.links}>
                     <ul className={styles.nav_links}>
                         <li><Link href="/">heavyveils studio.</Link></li>
-                        {/* <li><Link href="/about_me"></Link></li>
-                        <li><Link href="/design"></Link></li>
-                        <li><Link href="/contact"></Link></li> */}
                     </ul>
                 </div>
             </nav>
@@ -23,4 +20,4 @@ const Nav = () => {
     )
 }
 
-export default Nav
+export default Logo

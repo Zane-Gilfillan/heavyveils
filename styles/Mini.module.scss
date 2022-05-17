@@ -1,0 +1,55 @@
+.nav__line {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .audio {
+        position: relative;
+        left: 2%;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .visual {
+        position: relative;
+        right: 2.5%;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .other {
+        position: relative;
+        right: 5.5%;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+$breakpoint-mobile: 428px;
+@media (max-width: $breakpoint-mobile) {
+
+    .nav__line {
+        font-size: 2rem;
+        display: grid;
+
+        .audio {
+            position: relative;
+            bottom: 20%;
+        }
+
+        .visual {
+            position: relative;
+            top: 200%;
+        }
+
+        .other {
+            position: relative;
+            top: 460%;
+        }
+    }
+}
