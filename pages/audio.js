@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 import Image from 'next/image'
 import Nav from '../components/Nav'
 import Mini from '../components/mini_nav'
@@ -9,6 +10,9 @@ import smile from '../public/img/smile_resize.jpg'
 const audio = () => {
   return (
     <>
+        <Head>
+          <meta name='viewport'/>
+        </Head>
         <Nav />
         <div className={styles.container}>
             <div className={styles.album__card}>
