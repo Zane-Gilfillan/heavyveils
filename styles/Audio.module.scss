@@ -12,7 +12,6 @@
         justify-content: center;
 
         .img__holder {
-            height: 50%;
             width: 90%;
             padding: .5rem;
 
@@ -36,11 +35,29 @@ $breakpoint-mobile: 428px;
    .container {
        display: grid;
        width: 100%;
-       grid-template-columns: 1fr;
+       grid-template-columns:  repeat(1,1fr);
        justify-content: center;
        align-items: center;
+
        .album__card {
            width: 100%;
+           position: relative;
+           right: 0%;
        }
    }
 }    
+
+$breakpoint-mobile: 390px;
+@media (max-width: $breakpoint-mobile) {
+    .container {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        .album__card {
+            position: relative;
+            right: 0%;
+        }
+    }
+}

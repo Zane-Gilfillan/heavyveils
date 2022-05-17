@@ -28,7 +28,10 @@ $breakpoint-mobile: 428px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         
-
+        .img__holder {
+            position: relative;
+            right: 2%;
+        }
         
         .txt__holder {
             position: relative;

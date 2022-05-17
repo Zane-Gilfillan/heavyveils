@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import Nav from './mini_nav'
 import styles from '../styles/Showcase.module.scss'
 import one from '../public/img/one.jpg'
@@ -21,9 +22,9 @@ const Showcase = () => {
             <div className={styles.container}>
 
                 <div className={styles.img_wrap}>
-                        <Image src={two} height='4000' width='3000' />
-                        <Image src={one} height='4000' width='3000' />
-                        <Image src={three} height='4000' width='3000' />
+                        <Link href='/audio'><Image src={two} height='4000' width='3000' /></Link>
+                        <Link href='/visual'><Image src={one} height='4000' width='3000' /></Link>
+                        <Link href='other'><Image src={three} height='4000' width='3000' /></Link>
                 </div>
                 <div className={styles.nav__bar}>
                     <Nav />
