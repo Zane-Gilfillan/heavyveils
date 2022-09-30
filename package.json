@@ -2,7 +2,8 @@
   "name": "permahaze-website",
   "version": "0.1.0",
   "engines": {
-    "node": "18.10.0"
+    "node": "16.15.1",
+    "npm": "8.19.2"
   },
   "private": true,
   "scripts": {
