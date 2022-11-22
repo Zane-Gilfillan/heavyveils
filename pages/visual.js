@@ -23,6 +23,7 @@ const visual = () => {
         <div className={styles.container}>
           <div className={styles.img__holder}>
           <Image className={styles.img} src={five} />
+          
             <Image className={styles.img} src={two} />
             <Image className={styles.img} src={three} />
             <Image className={styles.img} src={four} />
