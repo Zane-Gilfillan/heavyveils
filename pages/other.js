@@ -9,9 +9,10 @@ const other = () => {
     <>
         <Nav />
         <div className={styles.container}>
-          <div className={styles.vid__holder}>
+          <p>nothing to see</p>
+          {/* <div className={styles.vid__holder}>
             <video className={styles.vid} src='/vid/crash_cut.mp4' type='video/mp4' autoPlay />
-          </div>
+          </div> */}
           
         </div>
     </>
