@@ -12,9 +12,9 @@ const visual = () => {
           <div className={styles.img__holder}>
             <Image className={styles.img} src={place} />
           </div>
-          <div className={styles.txt__holder}>
+          {/* <div className={styles.txt__holder}>
             <p>i was expecting there to be more photographs here. you too? yeah same, weird. hmmmm, are you sure you looked hard enough? or maybe you aren’t looking closely enough? yeah that could be it, try that. no? damn. how about closing your eyes and thinking really hard. close your eyes as hard as you can until it feels as though they are going to burst out of your skull. think about the most important things there have ever been to you. and organize them in nice tidy boxes somewhere in your head. the most important ones. and don’t forget to keep squeezing your eyes shut. think about the things you have wanted the most. not like expensive sneakers and very fast sports cars, no like things you really want to be. or maybe things you really don’t want to be. and this whole time your eyes should be getting tighter and tighter and you should be shaking and your temperate should be rising. or maybe your temperature should be declining. yeah declining. and you’re getting deeper and deeper. have you read about the divers that try and raise their friends from the dead? but the bodies are too heavy and the body bags are too wicked and will lash at the divers trying to rescue the bodies. and the water will say “no this is mine, and soon you will be mine too.” and then there are more bodies at the bottom. maybe that’s what you and your squeezing eyes and your thoughts are all like right now. and you’re deciding if you have the courage to gather them all up from the bottom of the water or if you have the peace of mind to let them rest forever until one day you get to rest with them too. oh yeah the photographs you were looking for! i totally forgot about them. hopefully they will be up soon...</p>
-          </div>
+          </div> */}
         </div>
     </>
   )
