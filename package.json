@@ -2,7 +2,8 @@
   "name": "permahaze-website",
   "version": "0.1.0",
   "engines": {
-    "node": "18.10.0"
+    "node": "16.15.1",
+    "npm": "8.19.2"
   },
   "private": true,
   "scripts": {
@@ -13,13 +14,13 @@
   },
   "dependencies": {
     "@madzadev/audio-player": "^1.1.9",
-    "next": "11.0.1",
+    "next": "^11.1.4",
     "next-images": "^1.8.1",
     "next-transpile-modules": "^8.0.0",
     "next-videos": "^1.4.0",
-    "react": "17.0.2",
+    "react": "^18.2.0",
     "react-countdown": "^2.3.2",
-    "react-dom": "17.0.2",
+    "react-dom": "^18.2.0",
     "sass": "^1.37.5"
   },
   "devDependencies": {
