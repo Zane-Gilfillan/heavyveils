@@ -12,9 +12,6 @@ import six from '../public/img/DSCF4563.jpg'
 import seven from '../public/img/DSCF4584.jpg'
 import eight from '../public/img/DSCF4615.jpg'
 import nine from '../public/img/DSCF4659.jpg'
-import ten from '../public/img/DSCF4727.jpg'
-import eleven from '../public/img/DSCF4749.jpg'
-import twelve from '../public/img/DSCF4805.jpg'
 
 const visual = () => {
   return (
@@ -23,7 +20,7 @@ const visual = () => {
         <div className={styles.container}>
           <div className={styles.img__holder}>
           <Image className={styles.img} src={five} />
-          
+
             <Image className={styles.img} src={two} />
             <Image className={styles.img} src={three} />
             <Image className={styles.img} src={four} />
