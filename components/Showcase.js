@@ -46,6 +46,13 @@ const Showcase = () => {
 
             </div>
 
+            <div className={styles.container__mobile}>
+                <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" className={styles.mobile_album} sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/permahaze/1654911785"></iframe>
+            </div>
+
+
+            
+
            
             
 

@@ -25,6 +25,10 @@
     }
 }
 
+.mobile__container {
+    display: flex;
+}
+
 $breakpoint-mobile: 428px;
 @media (max-width: $breakpoint-mobile) {
 

@@ -49,6 +49,19 @@
             
         }    
 }
+
+.container__mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .mobile__album {
+        width: 100%;
+        max-width: 660px;
+        overflow: hidden;
+        background: transparent;
+    }
+}
     
 
 $breakpoint-mobile: 428px;
@@ -56,6 +69,7 @@ $breakpoint-mobile: 428px;
 
     .container {
         display: flex;
+        display: none;
 
         .img_wrap {
             display: grid;
