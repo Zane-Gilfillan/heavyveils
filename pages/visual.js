@@ -20,14 +20,13 @@ const visual = () => {
         <Nav />
         <div className={styles.container}>
           <div className={styles.img__holder}>
-          <Image className={styles.img} src={five} />
-
+            <Image className={styles.img} src={five} />
             <Image className={styles.img} src={two} />
             <Image className={styles.img} src={three} />
             <Image className={styles.img} src={four} />
             <Image className={styles.img} src={one} />
-            <Image className={styles.img} src={six} />
             <Image className={styles.img} src={seven} />
+            <Image className={styles.img} src={six} />
             <Image className={styles.img} src={eight} />
             <Image className={styles.img} src={nine} />
             <Image className={styles.img} src={ten} />
