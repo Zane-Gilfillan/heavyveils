@@ -64,18 +64,18 @@
 }
     
 
-$breakpoint-mobile: 428px;
-@media (max-width: $breakpoint-mobile) {
+// $breakpoint-mobile: 428px;
+// @media (max-width: $breakpoint-mobile) {
 
-    .container {
-        display: flex;
-        display: none;
+//     .container {
+//         display: flex;
+//         display: none;
 
-        .img_wrap {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr) ;
-            width: 120%;
-        }
-    }
+//         .img_wrap {
+//             display: grid;
+//             grid-template-columns: repeat(1, 1fr) ;
+//             width: 120%;
+//         }
+//     }
    
-} 
+// } 

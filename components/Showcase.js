@@ -32,9 +32,6 @@ const Showcase = () => {
                     <div className={styles.img__holder}>
                         <Image src={cover}></Image>
                     </div>
-                    <div className={styles.album__info}>
-                    <iframe className={styles.album__player} src="https://bandcamp.com/EmbeddedPlayer/album=727038836/size=large/bgcol=333333/linkcol=fe7eaf/artwork=none/transparent=true/" seamless><a href="https://melvinhenry.bandcamp.com/album/permahaze">Permahaze by Melvin Henry</a></iframe>
-                    </div>
                     
                 </div>
 
